@@ -1,0 +1,23 @@
+Formative	[_Abe]	[_AdjVbz_Ntr]	[_AdjVbz_Tr]	[_Adjz:i]	[_Adjz:s]	[_Adjz:Ó]	[_Adjz:Ú]	[_Adjz_Hab]	[_Adjz_Loc:beli]	[_Adjz_Ord:VdlAgOs]	[_Adjz_Quant]	[_Adjz_Type:fajta]	[_Adjz_Type:forma]	[_Adjz_Type:féle]	[_Adjz_Type:szerű]	[_AdvPerfPtcp]	[_AdvPtcp]	[_AdvPtcp:ttOn]	[_AdvPtcp:vÁst]	[_Advz:rét]	[_Advz_LocDistr:szerte]	[_Advz_Quant:szám]	[_Aggreg]	[_Caus]	[_Com:stUl]	[_Comp]	[_Des]	[_Design]	[_Dim:cskA]	[_Distr:nként]	[_DistrFrq:ntA]	[_Frac]	[_Freq]	[_FutPtcp]	[_Ger]	[_Ger:tA]	[_ImpfPtcp]	[_Manner]	[_Manner:0]	[_MedPass]	[_Mlt-Iter]	[_MltComp]	[_Mod]	[_ModPtcp]	[_Mrs]	[_NAdvz:ilAg]	[_NVbz_Ntr:zik]	[_NVbz_Tr:z]	[_NegModPtcp]	[_NegPtcp]	[_Nz:s]	[_Nz_Abstr]	[_Nz_Type:féleség]	[_Nz_Type:szerűség]	[_Ord]	[_OrdDate]	[_Pass]	[_PerfPtcp]	[_PerfPtcp_Subj=tA]	[_Tmp_Ante]	[_Tmp_Loc]	[_VAdvz:ÓlAg]	[_VNz:nivaló]	[_Vbz:kOd]
+
+VerbPrefix	újra	abba	agyon	alá	alább	által	alul	át	be	bele	belé	benn	cserben	egybe	egyet	együtt	el	élen	ellen	ellent	elő	előre	észre	fel	félbe	félre	felül	fenn	föl	fölül	fönn	hátra	haza	helyben	helyre	helyt	hozzá	ide	jól	jóvá	karban	keresztbe közé	keresztül	kétségbe	ketté	ki	kölcsön	körbe	körül	közbe	közben	közre	közzé	külön	le	létre	meg	mellé	neki	nyilván	oda	odébb	ott	össze	rá	rajta	reá	rendre	részre	rosszul	szembe	szerte	szét	tele	teli	tova	tovább	tönkre	túl	újjá	utána	útba	utol	végbe	véghez	végig	végre	vele	viszont	vissza
+
+MainPOS	[/Adj]	[/Adv]	[/CmpdPfx]	[/Cnj]	[/Det]	[/Inj-Utt]	[/N]	[/Num]	[/Post]	[/Prep]	[/Prev]	[/QPtcl]	[/V]	[/X]
+
+MinorPOS	[/Supl]	[(Abl)]	[(Adj)]	[(All)]	[(Ela)]	[(Ins)]	[(N0)]	[(Num)]	[(Poss)]	[(Subl)]	[(Supe)]	[(Ter)]	[Abbr]	[Abbr|ChemSym]	[Acron]	[Acronx]	[AdjMod]	[Art.Def]	[Art.NDef]	[Attr]	[Attr|Abbr]	[Attr|Pro]	[col]	[Digit]	[Inf]	[lat]	[Ltr]	[mat]	[nat]	[Pred]	[Pro] [Pro|Def]	[Pro|Int]	[Pro|(Post)]	[Pro|Rel]	[Q.NDef]	[Q]	[Roman]	[Unit]	[Unit|Abbr]	[Attr|Pro|Rel]	[Pred|Pro]
+
+Tense	[Prs]	[Pst]
+
+Mood	[Cond]	[Sbjv]
+
+Conjugation	[Def]	[NDef]
+
+Person	[1Pl]	[1Sg]	[2Pl]	[2Sg]	[3Pl]	[3Sg]	[1Sg›2]	[1Pl*]	[3Pl*]
+
+CaseMarker	[Abl]	[Acc]	[Ade]	[All]	[Cau]	[Dat]	[Del]	[Ela]	[Ess]	[Ill]	[Ine]	[Ins]	[Loc]	[Nom]	[Subl]	[Supe]	[Temp]	[Ter]	[Transl]	[EssFor:ként]	[EssFor:képp]	[EssFor:képpen]
+
+Plurality	[Pl]	[Fam.Pl]
+
+Possessive	[Poss.1Pl]	[Poss.1Sg]	[Poss.2Pl]	[Poss.2Sg]	[Poss.3Pl]	[Poss.3Sg]
+
+Anaphoric	[AnP.Pl]	[AnP]
