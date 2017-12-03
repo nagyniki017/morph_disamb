@@ -71,9 +71,11 @@ cat input_file_path | python main.py -d -R -l 2017-11-13-14-19
 ```
 
 ## BibTex
+```bibtex
 @thesis{nagyn2017,
 	author = {Nagy, Nikolett},
 	title = {Hungarian morphological disambiguation using recurrent and convolutional neural networks},
 	institution = {Budapest University of Technology and Economics},
 	year = {2017}
 }
+```
