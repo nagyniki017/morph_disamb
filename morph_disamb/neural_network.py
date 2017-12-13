@@ -98,7 +98,6 @@ class MorphologicalDisambiguationNeuralNetwork:
                                      verbose=1,
                                      save_best_only=True,
                                      save_weights_only=True)
-        # logger = ProgbarLogger(n_batch=100)
         callbacks = [checkpoint, early_stopping]
 
         print('\n\033[92mTraining model...\033[0m')

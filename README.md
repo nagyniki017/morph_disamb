@@ -17,12 +17,12 @@ Training requires a corpus with the following format:
   
 To train a new (convolutional) model:
 ```
-python main.py -t -C [--batch 64] [--epoch 128] [--directory corpus_directory] [--file corpus_file]
+python main.py -t -C [--batch 64] [--epoch 128] [--directory corpus_directory] [--file corpus_file] [--transducer transducer_path]
 ```
 
 To continue the training of a saved (recurrent) model:
 ```
-python main.py -t -R -l 2017-11-13-14-19 [--batch 64] [--epoch 128] [--directory corpus_directory] [--file corpus_file]
+python main.py -t -R -l 2017-11-13-14-19 [--batch 64] [--epoch 128] [--directory corpus_directory] [--file corpus_file] [--transducer transducer_path]
 ```
 
 In case only the corpus directory is provided, each file within it will be handled as corpus file.
@@ -32,12 +32,12 @@ Evaluation requires a corpus with the same format as training.
 
 To evaluate a fresh training:
 ```
-python main.py -t -e -C [--batch 64] [--epoch 128] [--directory corpus_directory] [--file corpus_file] [-l 2017-11-16-15-54]
+python main.py -t -e -C [--batch 64] [--epoch 128] [--directory corpus_directory] [--file corpus_file] [-l 2017-11-16-15-54] [--transducer transducer_path]
 ```
 
 To evaluate a saved model:
 ```
-python main.py -e -R -l 2017-11-13-14-19 [--directory corpus_directory] [--file corpus_file]
+python main.py -e -R -l 2017-11-13-14-19 [--directory corpus_directory] [--file corpus_file] [--transducer transducer_path]
 ```
 
 The output of the evaluation:
@@ -58,21 +58,21 @@ In case of use input, [quntoken](https://github.com/dlt-rilmta/quntoken) is requ
 
 Disambiguation with file input:
 ```
-python main.py -d -R -l 2017-11-13-14-19 --directory input_dir --file input_file
+python main.py -d -R -l 2017-11-13-14-19 --directory input_dir --file input_file [--transducer transducer_path]
 ```
 
 Disambiguation from standard input:
 ```
-python main.py -d -R -l 2017-11-13-14-19
+python main.py -d -R -l 2017-11-13-14-19 [--transducer transducer_path]
 ```
 OR
 ```
-cat input_file_path | python main.py -d -R -l 2017-11-13-14-19
+cat input_file_path | python main.py -d -R -l 2017-11-13-14-19 [--transducer transducer_path]
 ```
 
 ## BibTex
 ```bibtex
-@thesis{nagyn2017,
+@thesis{NagyN2017,
 	author = {Nagy, Nikolett},
 	title = {Hungarian morphological disambiguation using recurrent and convolutional neural networks},
 	institution = {Budapest University of Technology and Economics},
