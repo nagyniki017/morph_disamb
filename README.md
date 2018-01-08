@@ -1,6 +1,6 @@
 # MorphDisamb
 
-## A Hungarian morphological disambiguatior using recurrent and convolutional neural networks.
+## A Hungarian morphological disambiguator using recurrent and convolutional neural networks.
 
 To analyse unknown words, [HFST](https://github.com/hfst/hfst) and the path for a transducer is required.
 
